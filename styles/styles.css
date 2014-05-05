@@ -1,0 +1,126 @@
+#page-header {
+  background-color:#74AFAD
+}
+
+#branding {
+  padding-left:50px;
+  padding-top:5px;
+}
+
+#demo-horizontal-menu {
+  background-color:#74AFAD;
+  float:right;
+  margin-top:60px;
+  margin-right:50px;
+}
+
+#demo-horizontal-menu a {
+  color:#26726F
+}
+
+#demo-horizontal-menu.pure-menu.pure-menu-open {
+  width:auto;
+}
+
+.boxed {
+  color: black;
+  background-image: "images/background.jpg";
+  float:left;
+  padding-top:50px;
+}
+
+#headshot {
+  float:left;
+  width:35%;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:50px;
+  margin-right:0px;
+  box-sizing: border-box;
+}
+
+#AboutDaphne {
+  float:left;
+  width:55%;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:50px;
+  box-sizing: border-box;
+}
+
+#consulting {
+  color: black;
+  width: 25%;
+  margin-left:30px;
+  padding-top: 1em;
+  padding-right: 3em;
+  padding-bottom: .8em;
+  padding-left: 3em;
+  background:white;
+  float: left;
+  font-size:80%;
+}
+
+#eventmanagement {
+  color: black;
+  width: 25%;
+  padding-top: .75em;
+  padding-right: 3em;
+  padding-bottom: .9em;
+  padding-left: 3em;
+  background:white;
+  float: left;
+  font-size:80%
+}
+
+#workshops {
+  color: black;
+  width: 25%;
+  padding-top: .3em;
+  padding-right: 3em;
+  padding-bottom: .99em;
+  padding-left: 3em;
+  background:white;
+  float: left;
+  font-size:80%;
+}
+
+#form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comment {
+  width: auto;
+  height: 100px;
+  text-align: center;
+}
+
+
+#askdaphneform {
+  background: #ECECEA;
+  font: bold;
+  color: #D9853B;
+}
+
+#askdaphnetext {
+  color: #D9853B;
+}
+
+#contactfooter {
+  background-color:#74AFAD;
+  color: #26726F;
+  width: 100%;
+}
+
+#indexfooter {
+  background-color:#74AFAD;
+  color: #26726F;
+  margin-top:50%;
+  padding-bottom:1em;
+  padding-left:1em;
+  padding-right: 1em;
+  padding-top:1em;
+  text-align:center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    <script type="text/javascript" src="http://yui.yahooapis.com/3.13.0/build/yui/yui-min.js"></script>
+    <link href="styles/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="js/script.js" type="text/javascript"></script>
+    <title>Sample Page</title>
+  </head>
+  <body>
+    
+    <div id="page-wrapper">
+      <header id="page-header">
+        
+        <div id="demo-horizontal-menu">
+          
+          <ul id="std-menu-items">
+            <li class="pure-menu-selected">
+              <li><a href="Portfolio.html">Portfolio</a></li>
+              <li>
+                <a href="#">Events</a>
+                <ul>
+                  <li><a href="#">Event 1</a></li>
+                  <li><a href="#">Event 2</a></li>
+                  <li><a href="#">Event 3</a></li>
+                </ul>
+              </li>
+              <li><a href="Contact.html">Contact</a></li>        
+            </li>
+          </ul>
+        </div>
+        
+        <a href="index.html">
+          <div id="branding">
+            <img height="130" width="250" src="images/Daphne.png"></div></a>
+        
+        
+        <script>
+          YUI({
+            classNamePrefix: 'pure'
+          }).use('gallery-sm-menu', function (Y) {
+            
+            var horizontalMenu = new Y.Menu({
+              container         : '#demo-horizontal-menu',
+              sourceNode        : '#std-menu-items',
+              orientation       : 'horizontal',
+              hideOnOutsideClick: false,
+              hideOnClick       : false
+            });
+            
+            horizontalMenu.render();
+            horizontalMenu.show();
+            
+          });
+        </script>
+      </header>
+      
+      <div class="boxed">
+        <div id="headshot">     
+          <img src="images/DaphneHeadshot.jpg">   
+        </div>
+        
+        <div id="AboutDaphne">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere blandit nulla, in sollicitudin orci molestie nec. Pellentesque gravida egestas vulputate. Donec ac magna scelerisque, malesuada diam sed, vulputate ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque scelerisque ante et ornare laoreet. Vivamus et malesuada elit. Duis iaculis risus nisi, nec adipiscing ligula luctus id. Integer vestibulum aliquam justo, quis posuere ligula fringilla nec. Suspendisse et tellus vehicula, mattis urna at, mattis ipsum. Suspendisse potenti. Nullam semper eu orci quis gravida. Nulla aliquam feugiat dignissim. Curabitur ac dolor tristique diam fringilla pulvinar et in dolor. Vivamus non ultricies sem. Vestibulum ornare vestibulum egestas.        </div>
+      </div>
+      
+      <div id="consulting">
+        <div class="boxed">
+          <center>
+            <img src="images/consulting.png"><br>
+            <font color=#26726F size="5">Consulting</font> <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices fermentum felis, a aliquet metus condimentum nec. Duis mollis vulputate turpis, at imperdiet dui luctus at. Nullam aliquam rhoncus tortor.           </center>
+        </div>
+      </div>
+      
+      <div id="eventmanagement">
+        <div class="boxed">          
+          <center>
+            <img src="images/eventmanagement.png"><br>
+            <font color=#26726F size="5">Event Management</font> <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices fermentum felis, a aliquet metus condimentum nec. Duis mollis vulputate turpis, at imperdiet dui luctus at. Nullam aliquam rhoncus tortor.           </center>
+        </div>
+      </div>
+      
+      <div id="workshops">
+        <div class="boxed">        
+          <center>
+            <img src="images/workshops.png"><br>
+            <font color=#26726F size="5">Workshops</font> <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices fermentum felis, a aliquet metus condimentum nec. Duis mollis vulputate turpis, at imperdiet dui luctus at. Nullam aliquam rhoncus tortor.         </center>
+        </div>
+      </div>
+      
+    </div>     
+  </body>
+  <footer id="indexfooter"> 
+    <p>Content copyright 2014. DAPHNEDIXON.COM. All rights reserved.</p>
+  </footer>
+</html>
