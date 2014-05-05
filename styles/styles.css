@@ -1,5 +1,16 @@
+body
+{
+background-color:#ECECEA;
+}
+
+#content {
+ width: 100%;
+  float: left;
+}
+
 #page-header {
-  background-color:#74AFAD
+  background-color:#74AFAD;
+  margin-bottom:-30px;
 }
 
 #branding {
@@ -32,21 +43,23 @@
 #headshot {
   float:left;
   width:35%;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:50px;
-  margin-right:0px;
+  margin-top:30px;
+  margin-left:85px;
   box-sizing: border-box;
 }
 
 #AboutDaphne {
   float:left;
-  width:55%;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:10px;
-  margin-right:50px;
+  width:50%;
+  margin-top:30px;
+  margin-right:40px;
+  margin-bottom:90px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
   box-sizing: border-box;
+  background:white;
 }
 
 #consulting {
@@ -106,18 +119,24 @@
 
 #askdaphnetext {
   color: #D9853B;
+  margin-top:2em;
 }
 
 #contactfooter {
   background-color:#74AFAD;
   color: #26726F;
-  width: 100%;
+  margin-top:3.5em;
+  padding-left:1em;
+  padding-bottom:1em;
+  padding-right: 1em;
+  padding-top:1em;
+  text-align:center;
 }
 
 #indexfooter {
   background-color:#74AFAD;
   color: #26726F;
-  margin-top:50%;
+  margin-top:52%;
   padding-bottom:1em;
   padding-left:1em;
   padding-right: 1em;
